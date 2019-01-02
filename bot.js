@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
-const devs = ['389090790984515594'];
+const devs = ['458640422420480012'];
 const db = require('quick.db');
-const premium = ['470896018603376640']
+const premium = ['458640422420480012']
 const client = new Discord.Client();   
 const bot = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -773,7 +773,7 @@ client.on('message', message => {
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:arrow_right: Invite Galaxy Bot!**")
-                    .setURL("https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591");
+                    .setURL("https://discordapp.com/oauth2/authorize?client_id=530011582910955521&scope=bot&permissions=2146958591");
                    message.channel.sendEmbed(embed);
                   }
 });
@@ -784,7 +784,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/qEPMJgb**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/efVx2Zf**")
      
      
   message.channel.sendEmbed(embed);
