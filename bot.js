@@ -772,8 +772,8 @@ message.channel.send(
 client.on('message', message => {
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
-                    embed.setTitle("**:arrow_right: Invite Galaxy Bot!**")
-                    .setURL("https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591");
+                    embed.setTitle("**:arrow_right: Invite X Bot!**")
+                    .setURL("https://discordapp.com/oauth2/authorize?client_id=530011582910955521&scope=bot&permissions=2146958591");
                    message.channel.sendEmbed(embed);
                   }
 });
@@ -784,7 +784,11 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/qEPMJgb**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/efVx2Zf**')
+	    
+	    
+	    
+	
      
      
   message.channel.sendEmbed(embed);
