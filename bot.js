@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,'G.help','Type G.help',`${client.users.size} Members`,'G.inv','By: Hosam | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,'G.help','Type G.help',`${client.users.size} Members`,'G.inv','By: SizGooo | Bomber'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -773,7 +773,7 @@ client.on('message', message => {
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:arrow_right: Invite Galaxy Bot!**")
-                    .setURL("https://discordapp.com/oauth2/authorize?client_id=435392018693488641&scope=bot&permissions=2146958591");
+                    .setURL("https://discordapp.com/oauth2/authorize?client_id=530011582910955521&scope=bot&permissions=2146958591");
                    message.channel.sendEmbed(embed);
                   }
 });
@@ -784,7 +784,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/qEPMJgb**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/efVx2Zf**")
      
      
   message.channel.sendEmbed(embed);
