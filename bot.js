@@ -772,7 +772,7 @@ message.channel.send(
 client.on('message', message => {
                 if(message.content === prefix + "inv") {
                     let embed = new Discord.RichEmbed ()
-                    embed.setTitle("**:arrow_right: Invite Galaxy Bot!**")
+                    embed.setTitle("**:arrow_right: Invite x Bot!**")
                     .setURL("https://discordapp.com/oauth2/authorize?client_id=530011582910955521&scope=bot&permissions=2146958591");
                    message.channel.sendEmbed(embed);
                   }
