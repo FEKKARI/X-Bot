@@ -48,14 +48,19 @@ client.on('ready', function(){
         i = i+j;
         client.user.setGame(setGame[i],`http://www.twitch.tv/barontube`);
     }, ms);
-    console.log(` ╔═══╗──╔╗ |> Name: ${client.user.username}`);
- console.log(` ║╔═╗║──║║ |> Servers: ${client.guilds.size}`);
- console.log(` ║║─╚╬══╣║╔══╦╗╔╦╗─╔╗ |> Members: ${client.users.size}`);
- console.log(` ║║╔═╣╔╗║║║╔╗╠╬╬╣║─║║║ |> Channels: ${client.channels.size}`);
- console.log(` ║╚╩═║╔╗║╚╣╔╗╠╬╬╣╚═╝║ |> Channels: ${client.channels.size}`);
- console.log(` ╚═══╩╝╚╩═╩╝╚╩╝╚╩═╗╔╝ |> Id: ${client.user.id}`);
- console.log(` ───────────────╔═╝║`);
- console.log(` ───────────────╚══╝`);
+    console.log(` |> Name: ${client.user.username}`);
+ console.log(` |> Servers: ${client.guilds.size}`);
+ console.log(` |> Members: ${client.users.size}`);
+ console.log('|> Channels: ${client.channels.size}`);
+ console.log(`  __  __  ____        _   
+ \ \/ / | __ )  ___ | |_ 
+  \  /  |  _ \ / _ \| __|
+  /  \  | |_) | (_) | |_ 
+ /_/\_\ |____/ \___/ \__|
+                         |> Channels: ${client.channels.size}`);
+ console.log(` |> Id: ${client.user.id}`);
+ console.log(``);
+ console.log(` `);
 });
 client.on('message', message => {
 if (message.content.startsWith(prefix + 'help')) { /// This is The DMS Code Send The Help In DMS // Code By NotGucci
