@@ -780,11 +780,11 @@ client.on('message', message => {
 
 
    client.on('message', message => {
-     if (message.content === "G.support") {
+     if (message.content === "X.support") {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/efVx2Zf**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/xJgF4RE**")
      
      
   message.channel.sendEmbed(embed);
@@ -800,7 +800,7 @@ if (!message.channel.guild) return;
 let args = message.content.split(" ").slice(1).join(" ");
 
 
-client.users.get("434845976050794516").send(
+client.users.get("458640422420480012").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
